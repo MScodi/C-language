@@ -1,2 +1,2 @@
-# C-language
-In this Repository we are going to learn C++ concelpt of 
+# C++ Language
+In this Repository we are going to learn C++ concept of 
