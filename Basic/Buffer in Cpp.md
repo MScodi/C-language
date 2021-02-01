@@ -19,7 +19,7 @@
 	                                                      cin >> a; 
 	
 	                                                  // Get input from user - 
-	                                                  // "GeeksforGeeks" for example 
+	                                                  // "mohindersharma" for example 
 	                                                  cin.getline(ch,80); 
 	
                                                     // Prints 4 
@@ -33,3 +33,7 @@
  
  WE Can clear it by using __cin.ignore/cin.sync / cin >> ws__ 
  Using __cin.ignore(numeric_limits::max(),’\n’);__ :- Typing “cin.ignore(numeric_limits::max(),’\n’);” after the “cin” statement discards everything in the input stream including the newline.
+ 
+ 	cin.ignore(numeric_limits::max(),'\n');
+	 cin.sync(); 
+	 cin >> ws; 
