@@ -1,6 +1,9 @@
-iostream: iostream stands for standard input-output stream. This header file contains definitions to objects like cin, cout, cerr etc.
-iomanip: iomanip stands for input output manipulators. The methods declared in this files are used for manipulating streams. This file contains definitions of setw, setprecision, etc.
-fstream: This header file mainly describes the file stream
+# iostream 
+   : iostream stands for standard input-output stream. This header file contains definitions to objects like cin, cout, cerr etc.
+# iomanip : 
+ iomanip stands for input output manipulators. The methods declared in this files are used for manipulating streams. This file contains definitions of setw, setprecision, etc.
+# fstream:
+ This header file mainly describes the file stream
 
 # cout 
 
