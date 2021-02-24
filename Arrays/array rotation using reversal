@@ -1,0 +1,37 @@
+<Rotation of Array>
+
+#include <bits/stdc++.h>
+using namespace std;
+
+void reverse(int arr[], int start, int last){
+    while(start<last){
+        int temp;
+        temp=arr[start];
+        arr[start]=arr[last];
+        arr[last]=temp;
+        start++;
+        last--;
+    }
+}
+
+void printArray(int arr[], int n)
+{
+	for (int i = 0; i < n; i++)
+		{cout << arr[i] << " ";}
+}
+
+/* Driver program to test above functions */
+int main()
+{
+	int arr[] = { 1, 2, 3, 4, 5, 6, 7 };
+	int n = sizeof(arr) / sizeof(arr[0]);
+
+	// Function calling
+	reverse(arr, 0, 3);
+	reverse(arr, 4, 6);
+	reverse(arr, 0, 6);
+
+	printArray(arr, n);
+
+	return 0;
+}
